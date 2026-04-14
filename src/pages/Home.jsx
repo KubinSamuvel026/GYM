@@ -14,12 +14,12 @@ const stats = [
 
 /* ── Programs ─────────────────────────── */
 const programs = [
-  { icon: '/public/Muscle Building.jpg', title: 'Muscle Building', desc: 'Hypertrophy-focused training for maximum size and definition.', tag: 'POPULAR' },
-  { icon: '/public/Fat Loss.jpg', title: 'Fat Loss', desc: 'High-intensity protocols engineered to torch fat fast.', tag: 'HOT' },
-  { icon: '/public/Strength Training.jpg', title: 'Strength Training', desc: 'Progressive overload systems to build raw power.', tag: '' },
-  { icon: '/public/Cross Training.jpg', title: 'Cross Training', desc: 'Explosive functional fitness for total body conditioning.', tag: 'NEW' },
-  { icon: '/public/Combat Fitness.jpg', title: 'Combat Fitness', desc: 'Boxing-inspired cardio that builds muscle and burns fat.', tag: '' },
-  { icon: '/public/Beginner Plans.jpg', title: 'Beginner Plans', desc: 'Science-backed foundations for your fitness journey.', tag: '' },
+  { icon: '/Muscle Building.jpg', title: 'Muscle Building', desc: 'Hypertrophy-focused training for maximum size and definition.', tag: 'POPULAR' },
+  { icon: '/Fat Loss.jpg', title: 'Fat Loss', desc: 'High-intensity protocols engineered to torch fat fast.', tag: 'HOT' },
+  { icon: '/Strength Training.jpg', title: 'Strength Training', desc: 'Progressive overload systems to build raw power.', tag: '' },
+  { icon: '/Cross Training.jpg', title: 'Cross Training', desc: 'Explosive functional fitness for total body conditioning.', tag: 'NEW' },
+  { icon: '/Combat Fitness.jpg', title: 'Combat Fitness', desc: 'Boxing-inspired cardio that builds muscle and burns fat.', tag: '' },
+  { icon: '/Beginner Plans.jpg', title: 'Beginner Plans', desc: 'Science-backed foundations for your fitness journey.', tag: '' },
 ]
 
 /* ── Trainers ─────────────────────────── */
