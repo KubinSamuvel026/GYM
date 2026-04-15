@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import ScrollReveal from '../components/ScrollReveal'
-
 const programs = [
   {
     id: 'weight-training',
-    icon: '/public/Weight Training.jpg',
+    icon: '/Weight_Training.jpg',
     title: 'Weight Training',
     level: 'All Levels',
     duration: '60 min',
@@ -18,7 +17,7 @@ const programs = [
   },
   {
     id: 'muscle-building',
-    icon: '/public/Muscle Building.jpg',
+    icon: '/Muscle_Building.jpg',
     title: 'Muscle Building',
     level: 'Intermediate',
     duration: '75 min',
@@ -31,7 +30,7 @@ const programs = [
   },
   {
     id: 'fat-loss',
-    icon: '/public/Fat Loss.jpg',
+    icon: '/Fat_Loss.jpg',
     title: 'Fat Loss',
     level: 'All Levels',
     duration: '45 min',
@@ -44,7 +43,7 @@ const programs = [
   },
   {
     id: 'strength',
-    icon: '/public/Strength Training.jpg',
+    icon: '/Strength_Training.jpg',
     title: 'Strength Training',
     level: 'Intermediate–Advanced',
     duration: '90 min',
@@ -57,7 +56,7 @@ const programs = [
   },
   {
     id: 'cross-training',
-    icon: '/public/Cross Training.jpg',
+    icon: '/Cross_Training.jpg',
     title: 'Cross Training',
     level: 'All Levels',
     duration: '60 min',
@@ -70,7 +69,7 @@ const programs = [
   },
   {
     id: 'beginner',
-    icon: '/public/Beginner Plans.jpg',
+    icon: '/Beginner_Plans.jpg',
     title: 'Beginner Plans',
     level: 'Beginner',
     duration: '45 min',
@@ -83,7 +82,7 @@ const programs = [
   },
   {
     id: 'athlete',
-    icon: '/public/Athlete Programs.jpg',
+    icon: '/Athlete_Programs.jpg',
     title: 'Athlete Programs',
     level: 'Advanced',
     duration: '120 min',
@@ -96,7 +95,7 @@ const programs = [
   },
   {
     id: 'combat',
-    icon: '/public/Combat Fitness.jpg',
+    icon: '/Combat_Fitness.jpg',
     title: 'Combat Fitness',
     level: 'All Levels',
     duration: '60 min',
