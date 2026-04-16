@@ -18,7 +18,7 @@ const programs = [
   {
     id: 'muscle-building',
     icon: '',
-    title: 'Muscle Building',
+    title: 'Muscle uilding',
     level: 'Intermediate',
     duration: '75 min',
     frequency: '4–6x/week',
