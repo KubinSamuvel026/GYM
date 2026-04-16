@@ -4,7 +4,7 @@ import ScrollReveal from '../components/ScrollReveal'
 const programs = [
   {
     id: 'weight-training',
-    icon: '',
+    icon: '/Weight_Training.jpg',
     title: 'Weight Training',
     level: 'All Levels',
     duration: '60 min',
@@ -17,8 +17,8 @@ const programs = [
   },
   {
     id: 'muscle-building',
-    icon: '',
-    title: 'Muscle uilding',
+    icon: '/Muscle_Building.jpg',
+    title: 'Muscle Building',
     level: 'Intermediate',
     duration: '75 min',
     frequency: '4–6x/week',
@@ -30,7 +30,7 @@ const programs = [
   },
   {
     id: 'fat-loss',
-    icon: '',
+    icon: '/Fat_Loss.jpg',
     title: 'Fat Loss',
     level: 'All Levels',
     duration: '45 min',
@@ -43,7 +43,7 @@ const programs = [
   },
   {
     id: 'strength',
-    icon: '',
+    icon: '/Strength_Training.jpg',
     title: 'Strength Training',
     level: 'Intermediate–Advanced',
     duration: '90 min',
@@ -56,7 +56,7 @@ const programs = [
   },
   {
     id: 'cross-training',
-    icon: '',
+    icon: '/Cross_Training.jpg',
     title: 'Cross Training',
     level: 'All Levels',
     duration: '60 min',
@@ -69,7 +69,7 @@ const programs = [
   },
   {
     id: 'beginner',
-    icon: '',
+    icon: '/Beginner_Plans.jpg',
     title: 'Beginner Plans',
     level: 'Beginner',
     duration: '45 min',
@@ -82,7 +82,7 @@ const programs = [
   },
   {
     id: 'athlete',
-    icon: '',
+    icon: '/Athlete_Programs.jpg',
     title: 'Athlete Programs',
     level: 'Advanced',
     duration: '120 min',
@@ -95,7 +95,7 @@ const programs = [
   },
   {
     id: 'combat',
-    icon: '',
+    icon: '/Combat_Fitness.jpg',
     title: 'Combat Fitness',
     level: 'All Levels',
     duration: '60 min',
@@ -179,7 +179,7 @@ export default function Programs() {
                     height: '180px',
                     overflow: 'hidden'
                   }}>
-                    {/* <img
+                    <img
                       src={p.icon}
                       alt={p.title}
                       style={{
@@ -187,7 +187,7 @@ export default function Programs() {
                         height: '100%',
                         objectFit: 'cover'
                       }}
-                    /> */}
+                    />
                   </div>
 
                   <div style={{ padding: '28px 28px 20px' }}>

@@ -14,12 +14,12 @@ const stats = [
 
 /* ── Programs ─────────────────────────── */
 const programs = [
-  { icon: '', title: 'Muscle Building', desc: 'Hypertrophy-focused training for maximum size and definition.', tag: 'POPULAR' },
-  { icon: '', title: 'Fat Loss', desc: 'High-intensity protocols engineered to torch fat fast.', tag: 'HOT' },
-  { icon: '', title: 'Strength Training', desc: 'Progressive overload systems to build raw power.', tag: '' },
-  { icon: '', title: 'Cross Training', desc: 'Explosive functional fitness for total body conditioning.', tag: 'NEW' },
-  { icon: '', title: 'Combat Fitness', desc: 'Boxing-inspired cardio that builds muscle and burns fat.', tag: '' },
-  { icon: '', title: 'Beginner Plans', desc: 'Science-backed foundations for your fitness journey.', tag: '' },
+  { icon: '/Muscle_Building.jpg', title: 'Muscle Building', desc: 'Hypertrophy-focused training for maximum size and definition.', tag: 'POPULAR' },
+  { icon: '/Fat_Loss.jpg', title: 'Fat Loss', desc: 'High-intensity protocols engineered to torch fat fast.', tag: 'HOT' },
+  { icon: '/Strength_Training.jpg', title: 'Strength Training', desc: 'Progressive overload systems to build raw power.', tag: '' },
+  { icon: '/Cross_Training.jpg', title: 'Cross Training', desc: 'Explosive functional fitness for total body conditioning.', tag: 'NEW' },
+  { icon: '/Combat_Fitness.jpg', title: 'Combat Fitness', desc: 'Boxing-inspired cardio that builds muscle and burns fat.', tag: '' },
+  { icon: '/Beginner_Plans.jpg', title: 'Beginner Plans', desc: 'Science-backed foundations for your fitness journey.', tag: '' },
 ]
 
 /* ── Trainers ─────────────────────────── */
@@ -281,7 +281,7 @@ export default function Home() {
                     borderRadius: '6px',
                     marginBottom: '16px'
                   }}>
-                    {/* <img
+                    <img
                       src={p.icon}
                       alt={p.title}
                       style={{
@@ -289,7 +289,7 @@ export default function Home() {
                         height: '100%',
                         objectFit: 'cover',
                       }}
-                    /> */}
+                    />
                   </div>
                   <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: '2px', marginBottom: '12px' }}>{p.title}</h3>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: 1.65, marginBottom: '20px' }}>{p.desc}</p>
