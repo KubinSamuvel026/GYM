@@ -4,7 +4,7 @@ import ScrollReveal from '../components/ScrollReveal'
 const programs = [
   {
     id: 'weight-training',
-    icon: '/Weight_Training.jpg',
+    icon: '',
     title: 'Weight Training',
     level: 'All Levels',
     duration: '60 min',
@@ -17,7 +17,7 @@ const programs = [
   },
   {
     id: 'muscle-building',
-    icon: '/Muscle_Building.jpg',
+    icon: '',
     title: 'Muscle Building',
     level: 'Intermediate',
     duration: '75 min',
@@ -30,7 +30,7 @@ const programs = [
   },
   {
     id: 'fat-loss',
-    icon: '/Fat_Loss.jpg',
+    icon: '',
     title: 'Fat Loss',
     level: 'All Levels',
     duration: '45 min',
@@ -43,7 +43,7 @@ const programs = [
   },
   {
     id: 'strength',
-    icon: '/Strength_Training.jpg',
+    icon: '',
     title: 'Strength Training',
     level: 'Intermediate–Advanced',
     duration: '90 min',
@@ -56,7 +56,7 @@ const programs = [
   },
   {
     id: 'cross-training',
-    icon: '/Cross_Training.jpg',
+    icon: '',
     title: 'Cross Training',
     level: 'All Levels',
     duration: '60 min',
@@ -69,7 +69,7 @@ const programs = [
   },
   {
     id: 'beginner',
-    icon: '/Beginner_Plans.jpg',
+    icon: '',
     title: 'Beginner Plans',
     level: 'Beginner',
     duration: '45 min',
@@ -82,7 +82,7 @@ const programs = [
   },
   {
     id: 'athlete',
-    icon: '/Athlete_Programs.jpg',
+    icon: '',
     title: 'Athlete Programs',
     level: 'Advanced',
     duration: '120 min',
@@ -95,7 +95,7 @@ const programs = [
   },
   {
     id: 'combat',
-    icon: '/Combat_Fitness.jpg',
+    icon: '',
     title: 'Combat Fitness',
     level: 'All Levels',
     duration: '60 min',
