@@ -281,7 +281,7 @@ export default function Home() {
                     borderRadius: '6px',
                     marginBottom: '16px'
                   }}>
-                    <img
+                    {/* <img
                       src={p.icon}
                       alt={p.title}
                       style={{
@@ -289,7 +289,7 @@ export default function Home() {
                         height: '100%',
                         objectFit: 'cover',
                       }}
-                    />
+                    /> */}
                   </div>
                   <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: '2px', marginBottom: '12px' }}>{p.title}</h3>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: 1.65, marginBottom: '20px' }}>{p.desc}</p>

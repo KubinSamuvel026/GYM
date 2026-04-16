@@ -179,7 +179,7 @@ export default function Programs() {
                     height: '180px',
                     overflow: 'hidden'
                   }}>
-                    <img
+                    {/* <img
                       src={p.icon}
                       alt={p.title}
                       style={{
@@ -187,7 +187,7 @@ export default function Programs() {
                         height: '100%',
                         objectFit: 'cover'
                       }}
-                    />
+                    /> */}
                   </div>
 
                   <div style={{ padding: '28px 28px 20px' }}>
